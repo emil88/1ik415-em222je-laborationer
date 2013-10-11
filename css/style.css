@@ -46,6 +46,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }*/
+
+/*Aktiva reset-funktioner*/
+a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ol, ul {
+	list-style: none;
+	
+}
 /*HÄR SLUTAR RESET-CSS*/
 
 /*  
@@ -61,6 +75,7 @@ table {
 */
 
 
+
 #container      { max-width: 960px;
                   min-height: 600px;
                   margin: auto;
@@ -68,16 +83,20 @@ table {
                   background-color: #206676;
                   color: #130873;
                 }
-#header         { width: 400;
-                  height: 340;
-                  border: solid #2419B2 1px;
-                  background-color: #38B2CE;
+#header         {
+                    padding-left: 20px;
+                    width: 400;
+                    height: 340;
+                    border: solid #2419B2 1px;
+                    background-color: #38B2CE;
                 }
 #navigation     { margin-top: 16px;
                   width: 200px;
                   float:left;
-                  background-color: #60B9CE;
+                  background-color: #4775FF;
+                  
                 }
+
 #content        { padding-left: 20px;
                   padding-top: 20px;
                   border: solid #2419B2 1px;
@@ -88,4 +107,25 @@ table {
 #footer         { border: groove #100873 2px;
                   background-color: #35C0CD;
                 }
-        
+
+.active a {
+            font-weight: 800;
+            background-color: #75D1B2;
+        }
+
+
+a:hover {
+    background-color: #7FFFD4;
+}
+
+li a {
+
+display: block;
+padding: 12px;
+margin-bottom: 5px;
+background-color: #66CCAA;
+border: 2px solid;
+margin-right: 40px;
+text-align: center;
+}
+
