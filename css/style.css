@@ -2,16 +2,16 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/*
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+/*-Modifierat av Emil Mokvist-*/
+html, body, div, span, applet, object, iframe, 
+blockquote, pre,
+abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+table, caption, /*tbody, tfoot, thead, tr, th, td,*/
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
@@ -19,11 +19,9 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers 
+ HTML5 display-role reset for older browsers 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -31,9 +29,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/*ol, ul {
 	list-style: none;
-}
+}*/
 blockquote, q {
 	quotes: none;
 }
@@ -45,20 +43,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}*/
-
-/*Aktiva reset-funktioner*/
-a {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-ol, ul {
-	list-style: none;
-	
 }
 /*HÄR SLUTAR RESET-CSS*/
 
@@ -74,58 +58,90 @@ ol, ul {
     Border (content+header): #2419B2
 */
 
+p {
+    color: #800000;
+}
+h1 {
+    color: #FF3300;
+}
+h2, h3, h4, h5, h6 {
+    color: #228B22;
+}
 
+#container {
+    max-width: 960px;
+    min-height: 600px;
+    margin: auto;
+    border: solid #100873 2px;
+    background-color: #206676;
+}
 
-#container      { max-width: 960px;
-                  min-height: 600px;
-                  margin: auto;
-                  border: solid #100873 2px;
-                  background-color: #206676;
-                  color: #130873;
-                }
-#header         {
-                    padding-left: 20px;
-                    width: 400;
-                    height: 340;
-                    border: solid #2419B2 1px;
-                    background-color: #38B2CE;
-                }
-#navigation     { margin-top: 16px;
-                  width: 200px;
-                  float:left;
-                  background-color: #4775FF;
-                  
-                }
+#header {
+    padding: 14px;
+    width: 400;
+    height: 340;
+    border: solid #2419B2 1px;
+    background-color: #00E6E6;
+    font-family: sans-serif;
+    font-size: 2em;
+    margin: 0;
+}
+#navigation {
+    margin-top: 16px;
+    width: 220px;
+    height: 400px;
+    float:left;
+    font-family: "Lucida Console";
+}
 
-#content        { padding-left: 20px;
-                  padding-top: 20px;
-                  border: solid #2419B2 1px;
-                  margin-left: 202px;
-                  background-color: #5EC4CD;
-                  
-                }
-#footer         { border: groove #100873 2px;
-                  background-color: #35C0CD;
-                }
+#content {
+    padding: 40px;
+    border: solid #2419B2 1px;
+    margin-left: 202px;
+    background-color: #5EC4CD;
+    font-family: Courier;
+}
+                
+#pentagram1 {
+    margin-left: 240px;
+}
 
+#kursblogg {
+    color: #B80000;
+}
+                
+footer {
+    border: groove #100873 2px;
+    background-color: #35C0CD;
+    clear: left;
+}
+
+                
 .active a {
-            font-weight: 800;
-            background-color: #75D1B2;
-        }
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #75D1B2;
+    text-align: center;
+}
+.madeby {
+    font-style: italic;
+}
 
+#navigation li a {
+    font-size: 12px;
+    display: block;
+    padding: 12px;
+    margin-bottom: 5px;
+    background-color: #66CCAA;
+    border: 2px solid;
+    margin-right: 40px;
+    text-align: left;
+}
 
-a:hover {
+#navigation li {
+    list-style: none;
+}
+
+#navigation a:hover {
     background-color: #7FFFD4;
 }
-
-li a {
-
-display: block;
-padding: 12px;
-margin-bottom: 5px;
-background-color: #66CCAA;
-border: 2px solid;
-margin-right: 40px;
-text-align: center;
-}
-
