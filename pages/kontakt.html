@@ -3,44 +3,50 @@
     <head>
         <meta charset="utf-8">
         <title>Kontakt</title>
+        <link rel="stylesheet" href="../css/style.css" />
     </head>
     <body>
-        <h1>Kontaktuppgifter:</h1>
-        <p>Emil Mokvist:s Hemsida</p>
-        <ul>
-            <li><a href="../index.html">Start</a></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-        <form id="kontakta" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-            <fieldset>
-                <legend>Kontakta Admin</legend>
-                    <label for="subject">Ärende:</label>
-                    <select id="subject" name="subject">
-                        <option value="question" selected>Fråga</option>
-                        <option value="comment">Förslag/Kommentar</option>
-                        <option value="other">Annat</option>
-                    </select>
-                    <label for="head">Rubrik:</label>
-                    <input id="head" type="text" name="Rubrik" />
-                    <label for="message">Meddelande:</label>
-                    <input id="message" type="text" name="Text:" placeholder="Skriv fråga/meddelande" />
-            </fieldset>
-            <fieldset>
-                <legend>Information om dig</legend>
-                <label for="email">Kontakta mig via e-mail</label>
-                <input id="email" type="checkbox" name="g1[]" value="email" />
-                <label for="phone">Kontakta mig via telefon</label>
-                <input id="phone" type="checkbox" name="g1[]" value="phone" />
-            </fieldset>
-            <input type="submit" name="skicka" value="Skicka" />
-        </form>
-        
-        
-<!--        <p>Namn: Emil&nbsp;Mokvist<br>
-            E-mail: em222je@student.lnu.se
-        </p>
--->
+        <div id="container">
+            <div id="header">
+                <h1>Kontaktuppgifter:</h1>
+                <p>Emil Mokvist:s Hemsida</p>
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li><a href="../index.html">Start</a></li>
+                    <li><a href="laborationer.html">Laborationer</a></li>
+                    <li><a href="presentation.html">Presentation</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <form id="kontakta" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+                    <fieldset>
+                        <legend>Kontakta Admin</legend>
+                            <label for="subject">Ärende:</label>
+                            <select id="subject" name="subject">
+                                <option value="question" selected>Fråga</option>
+                                <option value="comment">Förslag/Kommentar</option>
+                                <option value="other">Annat</option>
+                            </select>
+                            <label for="head">Rubrik:</label>
+                            <input id="head" type="text" name="Rubrik" />
+                            <label for="message">Meddelande:</label>
+                            <input id="message" type="text" name="Text:" placeholder="Skriv fråga/meddelande" />
+                    </fieldset>
+                    <fieldset>
+                        <legend>Information om dig</legend>
+                        <label for="email">Kontakta mig via e-mail</label>
+                        <input id="email" type="checkbox" name="g1[]" value="email" />
+                        <label for="phone">Kontakta mig via telefon</label>
+                        <input id="phone" type="checkbox" name="g1[]" value="phone" />
+                    </fieldset>
+                    <input type="submit" name="skicka" value="Skicka" />
+                </form>
+            </div>
+            <div id="footer">
+                <p>Ansvarig för materialet på denna sidan är Emil Mokvist.</p>
+            </div>
+        </div>
     </body>
 </html>

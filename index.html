@@ -3,40 +3,52 @@
     <head>
         <meta charset="utf-8">
         <title>Min första sida</title>
+<!-- Länkar in css-filen. -->
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <h1>Emil Mokvist:s Hemsida</h1>
-        <p>Välkommen! :-)</p>
-        <ul>
-            <li><a href="index.html">Start</a></li>
-            <li><a href="pages/laborationer.html">Laborationer</a></li>
-            <li><a href="pages/presentation.html">Presentation</a></li>
-            <li><a href="pages/kontakt.html">Kontakt</a></li>
-        </ul>
-        <img id="pentagram1" src="pics/tard-satan.png" alt="Satanistiskt pentagram med djävulens ansikte i mitten!" title="Pentagram">
-        <h2>Kursblogg</h2>
+        <div id="container">
+            <div id="header">
+                <h1>Emil Mokvist:s Hemsida</h1>
+                <p>Välkommen! :-)</p>
+            </div>
+            <div id="navigation">
+                <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="pages/laborationer.html">Laborationer</a></li>
+                <li><a href="pages/presentation.html">Presentation</a></li>
+                <li><a href="pages/kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <img id="pentagram1" src="pics/tard-satan.png" alt="Satanistiskt pentagram med djävulens ansikte i mitten!" title="Pentagram">
+                <h2>Kursblogg</h2>
 <!--Under denna linjen kommer nyaste inlägget på bloggen hamna
     så att det inlägg som är äldst ligger hamnar längst ner
      -->
-        <h3 id="added:09-23">Laboration 1 slutförd</h3>
-        <p>Nu är även formuläret på kontakt-sidan klart och verkar fungera mot testservern. Laboration 1 känner jag mig klar med och är redo att redovisa!</p>
-        <p>Skrivet av Emil, 2013-09-23</p>
-        <h3 id="added_09-20--2">Video inlagd för att prova funktionen i HTML5</h3>
-        <p>Denna trailer har laddats ner från <a href="http://www.bigbuckbunny.org">Big Buck Bunnys hemsida</a></p>
-        <video controls>
-            <source src="videos/Big_Buck_Bunny_Trailer_400p.ogg.360p.webm" type="video/webm" />
-            <source src="videos/trailer_400p.ogg" type="video/ogg" />
-            <p>Din webbläsare stödjer inte <code>video</code>-taggen</p>
-        </video>
-        <p>Skrivet av Emil, 2013-09-20</p>
-        <h3 id="added_09-20">Kommit längre i kursen!</h3>
-        <p>Lagt in diverse bilder på sidan. Gjorde bland annat denna halvdanska flaggan, inspirerad av min bror som är halvdansk!</p>
-        <img id="dk" src="pics/halvdansk.svg" alt="Halvdanska flagga" width="240" height="180">
-        <p>Skrivet av Emil, 2013-09-20</p>
-        <h3>Hello World!</h3>
-        <p>På denna blogg kommer jag skriva lite angående laborationerna och publicera det som jag producerar.<br>Detta är mitt första inlägg.</p>
-        <p>Skrivet av Emil, 2013-09-18</p>
+                <h3 id="added:09-23">Laboration 1 slutförd</h3>
+                <p>Nu är även formuläret på kontakt-sidan klart och verkar fungera mot testservern. Laboration 1 känner jag mig klar med och är redo att redovisa!</p>
+                <p>Skrivet av Emil, 2013-09-23</p>
+                <h3 id="added_09-20--2">Video inlagd för att prova funktionen i HTML5</h3>
+                <p>Denna trailer har laddats ner från <a href="http://www.bigbuckbunny.org">Big Buck Bunnys hemsida</a></p>
+                <video controls>
+                    <source src="videos/Big_Buck_Bunny_Trailer_400p.ogg.360p.webm" type="video/webm" />
+                    <source src="videos/trailer_400p.ogg" type="video/ogg" />
+                    <p>Din webbläsare stödjer inte <code>video</code>-taggen</p>
+                </video>
+                <p>Skrivet av Emil, 2013-09-20</p>
+                <h3 id="added_09-20">Kommit längre i kursen!</h3>
+                <p>Lagt in diverse bilder på sidan. Gjorde bland annat denna halvdanska flaggan, inspirerad av min bror som är halvdansk!</p>
+                <img id="dk" src="pics/halvdansk.svg" alt="Halvdanska flagga" width="240" height="180">
+                <p>Skrivet av Emil, 2013-09-20</p>
+                <h3>Hello World!</h3>
+                <p>På denna blogg kommer jag skriva lite angående laborationerna och publicera det som jag producerar.<br>Detta är mitt första inlägg.</p>
+                <p>Skrivet av Emil, 2013-09-18</p>
+            </div>
 <!--Nedanstående rad ska alltid stå kvar-->
-        <p>Ansvarig för materialet på denna sidan är Emil Mokvist.</p>
+            <div id="footer">
+                <p>Ansvarig för materialet på denna sidan är Emil Mokvist.</p>
+            </div>
+        </div>
     </body>
 </html>
