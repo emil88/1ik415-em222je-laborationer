@@ -48,24 +48,44 @@ table {
 }*/
 /*HÄR SLUTAR RESET-CSS*/
 
+/*  
+        --FÄRGER-- 
+    Background main (content): #5EC4CD
+    Background container: #206676
+    Background header: #38B2CE
+    Background navigation: #60B9CE
+    Background footer: #35C0CD
+    Text-color: #130873
+    Border (container+footer): #100873
+    Border (content+header): #2419B2
+*/
+
 
 #container      { max-width: 960px;
                   min-height: 600px;
                   margin: auto;
-                  border: solid black 2px;
+                  border: solid #100873 2px;
+                  background-color: #206676;
+                  color: #130873;
                 }
 #header         { width: 400;
                   height: 340;
-                  border: solid gray 1px;
+                  border: solid #2419B2 1px;
+                  background-color: #38B2CE;
                 }
-#navigation     { margin-top: 10px;
+#navigation     { margin-top: 16px;
                   width: 200px;
-                  border: solid gray 1px;
                   float:left;
+                  background-color: #60B9CE;
                 }
-#content        { border: solid gray 1px;
+#content        { padding-left: 20px;
+                  padding-top: 20px;
+                  border: solid #2419B2 1px;
                   margin-left: 202px;
+                  background-color: #5EC4CD;
+                  
                 }
-#footer         { border: solid gray 2px;
+#footer         { border: groove #100873 2px;
+                  background-color: #35C0CD;
                 }
         
