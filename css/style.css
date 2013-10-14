@@ -29,9 +29,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-/*ol, ul {
-	list-style: none;
-}*/
 blockquote, q {
 	quotes: none;
 }
@@ -50,8 +47,8 @@ table {
         --FÄRGER-- 
     Background main (content): #5EC4CD
     Background container: #206676
-    Background header: #38B2CE
-    Background navigation: #60B9CE
+    Background header: #00E6E6
+    Background navigation: #66CCAA
     Background footer: #35C0CD
     Text-color: #130873
     Border (container+footer): #100873
@@ -62,6 +59,9 @@ p, form, table, ul, ol, dl {
     color: #800000;
 }
 h1 {
+    font-size: 2em;
+    font-family: Comic;
+    font-weight: bold;
     color: #FF3300;
 }
 h2, h3, h4, h5, h6 {
@@ -82,7 +82,7 @@ h2, h3, h4, h5, h6 {
     height: 340;
     border: solid #2419B2 1px;
     background-color: #00E6E6;
-    font-family: sans-serif;
+    font-family: Comic;
     font-size: 2em;
     margin: 0;
 }
@@ -100,7 +100,7 @@ h2, h3, h4, h5, h6 {
     margin-left: 202px;
     background-color: #5EC4CD;
     font-family: Courier;
-    line-height: 2px;
+    line-height: 20px;
 }
                 
 #pentagram1 {
@@ -118,12 +118,7 @@ footer {
 }
 
                 
-.active a {
-    font-size: 15px;
-    font-weight: bold;
-    background-color: #75D1B2;
-    text-align: center;
-}
+
 .madeby {
     font-style: italic;
 }
@@ -141,6 +136,13 @@ footer {
 
 #navigation li {
     list-style: none;
+}
+
+.active a {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #75D1B2;
+    text-align: center;
 }
 
 a:hover {
