@@ -58,14 +58,14 @@ table {
     Border (content+header): #2419B2
 */
 
-p {
+p, form, table, ul, ol, dl {
     color: #800000;
 }
 h1 {
     color: #FF3300;
 }
 h2, h3, h4, h5, h6 {
-    color: #228B22;
+    color: #D47F19;
 }
 
 #container {
@@ -142,6 +142,17 @@ footer {
     list-style: none;
 }
 
-#navigation a:hover {
+a:hover {
     background-color: #7FFFD4;
+}
+
+a:link {
+    color: #008000;
+}
+
+a:visited {
+    color: #387838;
+}
+a:focus {
+    color: #9CBC9C;
 }
