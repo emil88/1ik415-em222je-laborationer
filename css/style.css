@@ -68,16 +68,11 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-family: "Comic Sans MS";
 	border: 0;
 	vertical-align: baseline;
 	font-size: 2em;
     font-weight: bold;
     color: #7FFF00;
-}
-
-.welcome {
-    font-family: "Comic Sans MS";
 }
 
 /*Nytt ovanför*/
@@ -98,14 +93,12 @@ header h3 {
     color: #00FFFF;
 }
 
-#logotype {
-    display: block;
+#logotyp {
+    /*display: block;*/
     width: 94px;
     height: 110px;
     background-image: url("../pics/tard-satan.png");
     background-size: contain;
-    margin-left: auto;
-    margin-right: auto;
     float: left;
 }
 
@@ -113,7 +106,7 @@ header h3 {
     max-width: 1024px;
     min-height: 600px;
     margin: auto;
-    border: solid #100873 2px;
+    /*border: solid #100873 2px;*/
     background-color: #206676;
 }
 
@@ -128,13 +121,11 @@ header h3 {
 }*/
 
 #navigation {
-    margin-top: 16px;
+    margin-top: 20px;
     padding: 0;
-    /*width: 200px;
-    height: 400px;*/
     float:left;
     font-family: "Lucida Console";
-    font-size: 17px;
+    margin-left: 22px;
 }
 
 #content {
@@ -145,25 +136,13 @@ header h3 {
     font-family: Courier;
     line-height: 18px;
 }
-
-#kursblogg {
-    color: #B80000;
-}
                 
 footer {
-    border: groove #100873 2px;
+    height: 80px;
+    margin-top: 300px;
+    border: groove #100873 3px;
     background-color: #35C0CD;
     clear: left;
-}
-
-.bloggadd {
-    list-style-image: url(pics/blue-pentagram-lowres.png);
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.madeby {
-    font-style: italic;
 }
 
 #navigation ul {
@@ -193,20 +172,37 @@ footer {
 }
 
 #navigation a:link {
-    color: #008000;
+    color: #EE3D1E;
 }
 
 #navigation a:visited {
-    color: #387838;
+    color: #DC143C;
 }
 
-#navigation a:focus {
+/*#navigation a:focus {
     color: #9CBC9C;
-}
+}*/
+
+
+/**** ---KLASSER--- ****/
 
 .active > a {
     font-weight: bold;
 }
-
-
-
+.bloggadd {
+    list-style-image: url(pics/blue-pentagram-lowres.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+.madeby {
+    font-style: italic;
+}
+.sektion {
+    color: #98BE1D;
+    margin-left: 200px;
+    margin-top: 14px;
+}
+.welcome {
+    font-family: "Comic Sans MS";
+    margin-left: 106px;
+}
