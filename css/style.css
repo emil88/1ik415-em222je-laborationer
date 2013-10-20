@@ -1,15 +1,15 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-*/
+*//*
 
-html, body, span, applet, object, iframe,
-/*h4, h5, h6, */p, blockquote, pre,
+html, body, applet, object, iframe,
+h6, p, blockquote, pre,
 abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol,
+/*dl, dt, dd,*//* ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -23,13 +23,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers *//*
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
 }
 ol {
 	list-style: none;
@@ -46,7 +43,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+*/
 /*@import url(reset.css);
 /*HÄR SLUTAR RESET-CSS*/
 
@@ -61,36 +58,143 @@ table {
     Border (container+footer): #100873
     Border (content+header): #2419B2
 */
-h2, h3, h4, h5, h6 {
+
+body {
+    line-height: 1;
     font-family: Verdana, Geneva, sans-serif;
-    font-weight: bold;
-    color: #D47F19;
+    margin: 0;
 }
 
 h1 {
+	margin: 0;
 	border: 0;
 	vertical-align: baseline;
-	font-size: 2em;
+	font-size: 2.5em;
     font-weight: bold;
     color: #7FFF00;
 }
 
-/*Nytt ovanför*/
-
-p, form, table, ol, dl {
-    color: #800000;
+h2 {
+    font-family: Monaco, monospace;
+    font-weight: bold;
+    font-size: 2em;
+    color: #C5802D;
 }
+
+h3 {
+    color: #0000FF/*#191970*/;
+    line-height: 18px;
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #191970;
+    margin: 0;
+    line-height: 18px;
+}
+
+h5 {
+    color: #4C602A/*#191970*/;
+    font-size: 1em;
+    margin: 0;
+    line-height: 2;
+}
+
+p, form, table, ol, ul {
+    color: #800000;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+dl {
+    color: #3B4B21;
+    font-size: 0.9em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 1.1;
+}
+
+dt {
+    font-weight: bolder;
+}
+
+dd {
+    margin-left: 40px;
+}
+
+a {
+    color: #EE3D1E;
+    text-decoration: underline;
+}
+
+/**** ===BEHÅLLARE=== ****/
 
 header {
+    font-family: "Comic Sans MS";
     background-color: #001F5C;
-    padding: 10px;
-    height: 120px;
-    border: solid #2419B2 1px;
+    line-height: 1;
     margin: 0;
+    height: 112px;
 }
 
-header h3 {
-    color: #00FFFF;
+footer {
+    /*height: 80px;
+    /*border: groove #100873 3px;*/
+    background-color: #35C0CD;
+    clear: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#container {
+    max-width: 1024px;
+    margin: auto;
+    /*border: solid #100873 2px;*/
+    background-color: #206676;
+}
+
+#navigation {
+    margin-top: 20px;
+    padding: 0;
+    float:left;
+    font-family: "Lucida Console";
+    margin-left: 22px;
+}
+
+#content {
+    min-height: 360px;
+    padding: 40px;
+    border: solid #2419B2 1px;
+    margin-left: 202px;
+    background-color: #5EC4CD;
+}
+
+/**** ===ID-TAGGAR=== ****/
+
+#resultat {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#Kina {
+    text-decoration: underline;
+}
+
+#welcome1 {
+    margin-left: 100px;
+    padding-top: 16px;
+}
+
+#welcome2 {
+    color: #664722;
+	padding: 0;
+	border: 0;
+	margin-top: 14px;
+	margin-left: 120px;
+    /*margin-bottom: 50px;*/
 }
 
 #logotyp {
@@ -102,49 +206,6 @@ header h3 {
     float: left;
 }
 
-#container {
-    max-width: 1024px;
-    min-height: 600px;
-    margin: auto;
-    /*border: solid #100873 2px;*/
-    background-color: #206676;
-}
-
-/*#header {
-    padding: 10px;
-    height: 120px;
-    border: solid #2419B2 1px;
-    background-color: #00E6E6;
-    font-family: Comic;
-    font-size: 2em;
-    margin: 0;
-}*/
-
-#navigation {
-    margin-top: 20px;
-    padding: 0;
-    float:left;
-    font-family: "Lucida Console";
-    margin-left: 22px;
-}
-
-#content {
-    padding: 40px;
-    border: solid #2419B2 1px;
-    margin-left: 202px;
-    background-color: #5EC4CD;
-    font-family: Courier;
-    line-height: 18px;
-}
-                
-footer {
-    height: 80px;
-    margin-top: 300px;
-    border: groove #100873 3px;
-    background-color: #35C0CD;
-    clear: left;
-}
-
 #navigation ul {
     list-style: none;
     width: 160px;
@@ -154,7 +215,7 @@ footer {
 #navigation li a {
     display: block;
     font-style: normal;
-    font-size: 12px;
+    font-size: 15px;
     padding: 12px;
     margin-bottom: 5px;
     background-color: #66CCAA;
@@ -173,36 +234,45 @@ footer {
 
 #navigation a:link {
     color: #EE3D1E;
+    text-decoration: none;
 }
 
 #navigation a:visited {
     color: #DC143C;
+    text-decoration: none;
 }
 
-/*#navigation a:focus {
-    color: #9CBC9C;
-}*/
+#navigation a:focus {
+    color: #E65B77;
+    text-decoration: underline;
+}
 
-
-/**** ---KLASSER--- ****/
+/**** ===KLASSER=== ****/
 
 .active > a {
     font-weight: bold;
+    text-decoration: underline;
 }
+
 .bloggadd {
     list-style-image: url(pics/blue-pentagram-lowres.png);
     margin-left: auto;
     margin-right: auto;
 }
+
 .madeby {
     font-style: italic;
 }
+
 .sektion {
-    color: #98BE1D;
-    margin-left: 200px;
-    margin-top: 14px;
+    margin-left: 220px;
+    margin-top: 30px;
+    margin-bottom: 6px;
 }
-.welcome {
-    font-family: "Comic Sans MS";
-    margin-left: 106px;
+
+.rocker-hand {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 80%;
 }
+
+
