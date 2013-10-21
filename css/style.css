@@ -84,7 +84,7 @@ h2 {
 h3 {
     color: #0000FF/*#191970*/;
     line-height: 18px;
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 
 h4 {
@@ -104,7 +104,7 @@ h5 {
 p, form, table, ol, ul {
     color: #800000;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 0.95em;
 }
 
 dl {
@@ -126,6 +126,15 @@ dd {
 a {
     color: #EE3D1E;
     text-decoration: underline;
+}
+a:visited {
+    color: #751947;
+}
+a:hover {
+    font-weight: bold;
+}
+a:focus {
+    font-style: italic;
 }
 
 /**** ===BEHÅLLARE=== ****/
@@ -255,10 +264,12 @@ footer {
 }
 
 .bloggadd {
-    list-style-image: url(pics/blue-pentagram-lowres.png);
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
+.bloggadd:before {
+    content: url(pics/blue-pentagram-hi-24.png);
+}
+
 
 .madeby {
     font-style: italic;
@@ -266,7 +277,7 @@ footer {
 
 .sektion {
     margin-left: 220px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 6px;
 }
 
