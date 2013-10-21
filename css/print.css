@@ -1,0 +1,36 @@
+/* Detta ska skrivas ut */
+#content {
+    width: 100%;
+    margin: 0;
+    float: none;
+    border: none;
+}
+#content img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.utskrift {
+    display: block;
+}
+.sektion {
+    margin: auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Detta ska inte skrivas ut */
+#navigation {
+    display: none;
+}
+footer {
+    display: none;
+}
+header {
+    display: none;
+}
+video {
+    display: none;
+}
+.normal-display {
+    display: none;
+}

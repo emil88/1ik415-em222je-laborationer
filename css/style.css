@@ -128,7 +128,7 @@ fieldset {
 }
 legend {
     margin-left: 4px;
-    margin-right: 4px;
+    margin-right: 2px;
 }
 
 dl {
@@ -172,8 +172,6 @@ header {
 }
 
 footer {
-    /*height: 80px;
-    /*border: groove #100873 3px;*/
     background-color: #35C0CD;
     clear: left;
     text-align: center;
@@ -184,7 +182,6 @@ footer {
 #container {
     max-width: 1024px;
     margin: auto;
-    /*border: solid #100873 2px;*/
     background-color: #206676;
 }
 
@@ -227,11 +224,9 @@ footer {
 	border: 0;
 	margin-top: 14px;
 	margin-left: 120px;
-    /*margin-bottom: 50px;*/
 }
 
 #logotyp {
-    /*display: block;*/
     width: 94px;
     height: 110px;
     background-image: url("../pics/tard-satan.png");
@@ -252,8 +247,6 @@ footer {
     padding: 12px;
     margin-bottom: 5px;
     background-color: #66CCAA;
-    /*margin-right: 40px;
-    text-align: left;*/
 }
 
 #navigation li {
@@ -312,6 +305,11 @@ footer {
     margin-left: 24px;
 }
 
+/* Externa länkar ska bara visas i klartext för print */
+.utskrift {
+    display: none;
+}
+
 /* Klass för bild */
 .right img {
     border-width: 3px;	
@@ -322,7 +320,7 @@ footer {
 }
 .left video {
     border-width: 3px;	
-    border-style: solid;
+    border-style: groove;
     border-color: #6495ED;
     margin-right: 20px;
     margin-bottom: 16px;
