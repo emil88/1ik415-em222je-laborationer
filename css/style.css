@@ -107,10 +107,28 @@ hr {
     clear: both;
 }
 
-p, form, table, ol, ul {
+p, table, ol, ul {
     color: #800000;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 0.95em;
+}
+
+/* Formulär */
+form {
+    color: #8B0000;
+    font-family: "Arial Black", Helvetica, sans-serif;
+    font-size: 0.85em;
+}
+label {
+    text-align: right;
+    margin-right: 2px;
+}
+fieldset {
+    margin-bottom: 12px;
+}
+legend {
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 dl {
@@ -288,6 +306,10 @@ footer {
 .rocker-hand {
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 80%;
+}
+
+.submit {
+    margin-left: 24px;
 }
 
 /* Klass för bild */
