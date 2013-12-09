@@ -326,3 +326,36 @@ footer {
     margin-bottom: 16px;
     float: left;
 }
+
+/* NYTT INFÖR SPRITES */
+.sprite {
+    float: left;
+    margin-top: 6px;
+    margin-left: 2px;
+    margin-right: 4px;
+    background-image: url(pics/sprite.png);
+}
+#start-icon {
+    background-position: 0 -48px;
+}
+#start-icon:hover {
+    background-position: 0 0;
+}
+#labbs-icon {
+    background-position: 0 -144px;
+}
+#labbs-icon:hover {
+    background-position: 0 -96px;
+}
+#pres-icon {
+    background-position: 0 -240px ;
+}
+#pres-icon:hover {
+    background-position: 0 -192px;
+}
+#cont-icon {
+    background-position: 0 -336px ;
+}
+#cont-icon:hover {
+    background-position: 0 -288px ;
+}
