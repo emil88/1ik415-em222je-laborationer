@@ -1,0 +1,27 @@
+#container {
+    max-width: 100%;
+}
+#content {
+    margin: 0;
+}
+
+#navigation {
+    width: 100%;
+    margin: 0;
+}
+#logotyp {
+    margin: auto;
+}
+#welcome1 {
+    clear: left;
+}
+
+.sektion {
+    clear: left;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+.bloggadd {
+    line-height: 1.2;
+}
