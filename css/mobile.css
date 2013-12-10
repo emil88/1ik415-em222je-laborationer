@@ -15,6 +15,9 @@
 #welcome1 {
     clear: left;
 }
+#resultat {
+    background-image: url(pics/error.png);
+}
 
 .sektion {
     clear: left;
