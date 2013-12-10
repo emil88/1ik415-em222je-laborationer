@@ -168,7 +168,8 @@ header {
     background-color: #001F5C;
     line-height: 1;
     margin: 0;
-    height: 112px;
+    /*height: 112px;*/
+    padding-bottom: 20px;
 }
 
 footer {
@@ -191,6 +192,7 @@ footer {
     float:left;
     font-family: "Lucida Console";
     margin-left: 22px;
+    width: 140px;
 }
 
 #content {
@@ -236,7 +238,8 @@ footer {
 
 #navigation ul {
     list-style: none;
-    width: 160px;
+    /*width: 160px;*/
+    max-width: 480px;
     padding: 0;
 }
 
@@ -251,6 +254,7 @@ footer {
 
 #navigation li {
     margin: auto;
+    min-width: 140px;
 }
 
 
