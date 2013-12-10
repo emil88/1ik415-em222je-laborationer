@@ -25,3 +25,7 @@
 .bloggadd {
     line-height: 1.2;
 }
+
+video {
+    max-width: 100%;
+}
