@@ -18,6 +18,9 @@
 #resultat {
     background-image: url(pics/error.png);
 }
+#kontakta {
+    display: none;
+}
 
 .sektion {
     clear: left;
@@ -29,6 +32,12 @@
     line-height: 1.2;
 }
 
+h3 {
+    line-height: 1.4;
+}
 video {
+    max-width: 100%;
+}
+img {
     max-width: 100%;
 }
