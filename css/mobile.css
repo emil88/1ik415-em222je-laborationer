@@ -18,11 +18,14 @@
     clear: left;
 }
 #resultat {
-    
+    border: 0;
+    font-size: 80%;
 }
-#kontakta {
-    
+#logotyp {
+    max-width: 100%;
+    height: auto;
 }
+
 .mobileLabel {
     margin-right: 20px;
 }
@@ -47,7 +50,9 @@ img {
     max-width: 100%;
     height: auto;
 }
-#resultat {
-    border: 0;
-    font-size: 80%;
+select {
+    max-width: 100%;
+}
+fieldset {
+    display: block;
 }
