@@ -4,6 +4,7 @@
 }
 #content {
     margin: 0;
+    overflow: hidden;
 }
 
 #navigation {
@@ -17,12 +18,14 @@
     clear: left;
 }
 #resultat {
-    background-image: url(pics/error.png);
+    
 }
 #kontakta {
-    display: none;
+    
 }
-
+.mobileLabel {
+    margin-right: 20px;
+}
 .sektion {
     clear: left;
     margin-top: 6px;
@@ -38,8 +41,13 @@ h3 {
 }
 video {
     max-width: 100%;
+    height: auto;
 }
 img {
     max-width: 100%;
     height: auto;
+}
+#resultat {
+    border: 0;
+    font-size: 80%;
 }
