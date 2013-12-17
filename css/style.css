@@ -130,6 +130,14 @@ label {
     text-align: right;
     margin-right: 2px;
 }
+select {
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+input {
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
 fieldset {
     margin-bottom: 12px;
 }
