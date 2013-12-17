@@ -119,6 +119,13 @@ form {
     font-family: "Arial Black", Helvetica, sans-serif;
     font-size: 0.85em;
 }
+form p {
+    font-style: italic;
+    line-height: 0.6;
+}
+input + p {
+    margin-top: 24px;
+}
 label {
     text-align: right;
     margin-right: 2px;
@@ -130,6 +137,7 @@ legend {
     margin-left: 4px;
     margin-right: 2px;
 }
+/* -FORMULÄR SLUT- */
 
 dl {
     color: #3B4B21;
@@ -277,6 +285,8 @@ footer {
     color: #E65B77;
     text-decoration: underline;
 }
+
+
 
 /**** ===KLASSER=== ****/
 

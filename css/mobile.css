@@ -56,3 +56,6 @@ select {
 fieldset {
     display: block;
 }
+form p {
+    line-height: 1.15;
+}
