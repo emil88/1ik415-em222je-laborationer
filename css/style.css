@@ -382,3 +382,19 @@ footer {
 #cont-icon:hover {
     background-position: 0 -288px ;
 }
+
+/*-- HTML5 / Laboration 5  --*/
+
+article {
+    background-color: #4B9DA4;
+    padding: 6px;
+}
+article article {
+    
+}
+article h4 {
+    
+}
+article p {
+    
+}
