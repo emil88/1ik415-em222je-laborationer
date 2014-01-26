@@ -390,11 +390,18 @@ article {
     padding: 6px;
 }
 article article {
-    
+    background-color: #A5CED2;
+    margin: 10px;
+}
+article h3:before {
+    content: url(pics/blue-pentagram-hi-24.png);
 }
 article h4 {
-    
+    color: #FF6262;
+    font-size: 1.05em;
 }
-article p {
-    
+article article p {
+    color: 	#A34545;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 0.85em;
 }
