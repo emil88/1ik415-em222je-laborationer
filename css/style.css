@@ -310,7 +310,10 @@ footer {
 
 .madeby {
     font-style: italic;
+    font-size: 0.85em;
+    color: #993D00;
     clear: both;
+    margin-top: 28px;
 }
 
 .sektion {
