@@ -417,3 +417,14 @@ article article p {
     line-height: 1;
     color: #82906A;
 }
+
+.vcard {
+    padding-top: 4px;
+    border: 2px double #660000;
+    margin: auto;
+    text-align: center;
+    color: #E68A2E;
+    background-color: #00004C;
+    font-size: 0.9em;
+    max-width: 250px;
+}
