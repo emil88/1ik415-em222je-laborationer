@@ -96,7 +96,7 @@ h4 {
 }
 
 h5 {
-    color: #4C602A/*#191970*/;
+    color: #4C602A;
     font-size: 1em;
     margin: 0;
     line-height: 2;
@@ -408,4 +408,10 @@ article article p {
     font-family: Verdana,Geneva,sans-serif;
     font-size: 0.85em;
     margin-left: 14px;
+}
+.nocomments {
+    font-style: italic;
+    font-size: 0.9em;
+    line-height: 1;
+    color: #82906A;
 }
