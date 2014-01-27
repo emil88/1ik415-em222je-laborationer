@@ -421,7 +421,7 @@ article article p {
 .vcard {
     padding-top: 4px;
     border: 2px double #660000;
-    margin: auto;
+    margin-top: 14px;
     text-align: center;
     color: #E68A2E;
     background-color: #00004C;
