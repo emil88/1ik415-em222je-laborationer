@@ -4,7 +4,7 @@
 }
 #content {
     margin: 0;
-    overflow: hidden;
+    overflow: hidden; /* Fix på tabeller. Nu tvingas inte sidan till horizontell scroll pga stora tabeller (eller andra stora element). */
 }
 
 #navigation {
