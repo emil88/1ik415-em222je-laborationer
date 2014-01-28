@@ -1,9 +1,6 @@
 #container {
     background-color: white;
 }
-img {
-    width: 140px;
-}
 
 a:nth-child(1) {
     -webkit-transform: rotate(15deg);
