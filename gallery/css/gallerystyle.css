@@ -1,3 +1,8 @@
+img {
+    width: 108px;
+    height: 340px;
+}
+
 #container {
     background-color: white;
 }
@@ -7,7 +12,7 @@ a:nth-child(1) {
     –moz-transform: rotate(15deg);
     -o-transform: rotate(15deg);
     -ms-transform: rotate(15deg);
-    font-size:140%;
+    font-size:180%;
 }
 
 a:nth-child(2) {
@@ -15,7 +20,7 @@ a:nth-child(2) {
     -moz-transform: matrix(0.866,0.6,-0.8,0.866,0,0);
     -o-transform: matrix(0.866,0.6,-0.8,0.866,0,0); 
     -ms-transform: matrix(0.866,0.6,-0.8,0.866,0,0);
-    font-size:185%;
+    font-size:130%;
 }
 
 a:nth-child(3) {
