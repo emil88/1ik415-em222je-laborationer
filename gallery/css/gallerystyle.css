@@ -125,10 +125,6 @@ a:hover, a:focus {
 body {
     background-color: black;
 }
-h2 {
-    color:red;
-    font-size:400%;
-}
 
 a:after {
     content:attr(title);
