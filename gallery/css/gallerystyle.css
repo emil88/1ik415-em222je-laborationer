@@ -4,7 +4,7 @@ img {
 }
 
 #container {
-    background-color: white;
+    font-family: "Ceviche One", cursive;
 }
 
 a:nth-child(1) {
@@ -123,12 +123,8 @@ a:hover, a:focus {
 }
 
 body {
-    font-family: 'Devonshire', cursive;
     background-color: black;
 }
-p {
-    color:blue;
-    font-size:200%;}
 h2 {
     color:red;
     font-size:400%;
